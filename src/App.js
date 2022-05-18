@@ -62,12 +62,12 @@ class App extends Component {
           <p>
             <input type="file"
                    id="image"
-                   accept="image/png, image/jpg"  onChange={this.handleImageChange} required/>
+                   accept="image/png, image/jpg"  onChange={this.handleImageChange} required/>Create - Image
           </p>
           <p>
             <input type="file"
                    id="video"
-                   accept="video/mp4"  onChange={this.handleVideoChange} required/>
+                   accept="video/mp4"  onChange={this.handleVideoChange} required/> Create - Video
           </p>
           <input type="submit"/>
         </form>
